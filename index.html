@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Unified Structure Generation for Universal Information Extraction | universal-ie.github.io</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Unified Structure Generation for Universal Information Extraction" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://universal-ie.github.io/" />
+<meta property="og:url" content="https://universal-ie.github.io/" />
+<meta property="og:site_name" content="universal-ie.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="A Multimodal Unified DIC for Entity Relation Extraction" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"Unified Structure Generation for Universal Information Extraction","name":"universal-ie.github.io","url":"https://universal-ie.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Unified Structure Generation for Universal Information Extraction</h1>
+      <h2 class="project-tagline"></h2>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h2 id="news">News</h2>
+<ul>
+  <li>[2022.04.27] <strong>NEW!!!</strong> <a href="https://aistudio.baidu.com/aistudio/competition/detail/161/0/submit-result">Submission website</a> for UIE@CCKS2022 competition is open, welcome to submit your solutions!</li>
+  <li>[2022.04.21] Our <a href="https://github.com/universal-ie/UIE">code</a> are public released.</li>
+  <li>[2022.04.12] Launch <a href="https://aistudio.baidu.com/aistudio/competition/detail/161/0/introduction">universal information extraction competition</a> <a href="http://sigkg.cn/ccks2022/?page_id=22">@CCKS2022</a>.</li>
+  <li>[2022.02.24] UIE accepted by ACL 2022, long paper.</li>
+</ul>
+
+<h2 id="unified-structure-generation-for-universal-information-extraction">Unified Structure Generation for Universal Information Extraction</h2>
+<p><img src="/img/UIE.png" alt="UIE" title="UIE" />
+Information extraction suffers from its varying targets, heterogeneous structures, and demand-specific schemas. In this paper, we propose a unified text-to-structure generation framework, namely UIE, which can universally model different IE tasks, adaptively generate targeted structures, and collaboratively learn general IE abilities from different knowledge sources. Specifically, UIE uniformly encodes different extraction structures via a structured extraction language, adaptively generates target extractions via a schema-based prompt mechanism – structural schema instructor, and captures the common IE abilities via a large-scale pretrained text-to-structure model. Experiments show that UIE achieved the state-of-the-art performance on 4 IE tasks, 13 datasets, and on all supervised, low-resource, and few-shot settings for a wide range of entity, relation, event and sentiment extraction tasks and their unification. These results verified the effectiveness, universality, and transferability of UIE.</p>
+
+<p>You can find code at <a href="https://github.com/universal-ie/UIE">Github</a> and the pre-trained models as following CAS Cloud Box/Google Drive links.</p>
+
+<p>uie-en-base <a href="https://pan.cstcloud.cn/s/w2hTaHYaRWw">[CAS Cloud Box]</a> <a href="https://drive.google.com/file/d/12Dkh6KLDPvXrkQ1I-1xLqODQSYjkwnvs/view">[Google Drive]</a> <a href="https://huggingface.co/luyaojie/uie-base-en">[Huggingface]</a></p>
+
+<p>uie-en-large <a href="https://pan.cstcloud.cn/s/2vrXYBVTbk">[CAS Cloud Box]</a> <a href="https://drive.google.com/file/d/15OFkWw8kJA1k2g_zehZ0pxcjTABY2iF1/view">[Google Drive]</a> <a href="https://huggingface.co/luyaojie/uie-large-en">[Huggingface]</a></p>
+
+<h2 id="publications">Publications</h2>
+<ul>
+  <li><strong>Unified Structure Generation for Universal Information Extraction</strong>. Yaojie Lu, Qing Liu, Dai Dai, Xinyan Xiao, Hongyu Lin, Xianpei Han, Le Sun and Hua Wu. ACL 2022. <a href="https://aclanthology.org/2022.acl-long.395/">[link]</a> <a href="https://arxiv.org/abs/2203.12277">[arxiv]</a> <a href="https://github.com/universal-ie/UIE">[Code in PyTorch]</a> <a href="https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/information_extraction/DuUIE">[Code in Paddle]</a></li>
+</ul>
+
+<h2 id="competition">Competition</h2>
+<ul>
+  <li><strong>Universal Information Extraction @CCKS 2022</strong> <a href="https://aistudio.baidu.com/aistudio/competition/detail/161/0/introduction">[website]</a> <a href="https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/information_extraction/DuUIE">[Baseline in Paddle]</a></li>
+</ul>
+
+<h2 id="other-implementations">Other Implementations</h2>
+<ul>
+  <li>[<a href="https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/uie">PaddleNLP</a>] <strong>UIE-Pointer: A pointer-based solution for universal information extraction</strong> <br />
+This is a pointer-based solution for universal information extraction implemented by Baidu and ISCAS.
+This implementation is with the same intuition as UIE, but it replaces the T5-based generation model with an ERNIE-based pointer model and further fine-tunes on public available IE datasets.</li>
+</ul>
+
+<hr />
+<p><em>Last updated: Sep 23rd, 2022</em></p>
+
+<p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Funiversal-ie.github.io&amp;count_bg=%2379C83D&amp;title_bg=%23555555&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=true" alt="Day/Overall" /></a></p>
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
